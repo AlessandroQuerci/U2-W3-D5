@@ -1,0 +1,12 @@
+@import "./bootstap-override";
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+nav {
+  background-color: black;
+  img {
+    width: 13%;
+  }
+}
