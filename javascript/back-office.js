@@ -24,7 +24,7 @@ formProdotto.onsubmit = (event) => {
 const addProduct = (addedProduct) => {
   console.log(addedProduct);
   fetch(URL, {
-    method: "UPDATE",
+    method: "POST",
     body: JSON.stringify(addedProduct),
     headers: {
       "Content-Type": "application/json",
