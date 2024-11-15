@@ -37,7 +37,7 @@ window.onload = () => {
           btnConferma.href = "../homepage.html";
           fetch(URL + `${productId}`, {
             method: "PUT",
-            body: JSON.stringify(addedProduct),
+            body: JSON.stringify(phones),
             headers: {
               "Content-Type": "application/json",
               Authorization:
